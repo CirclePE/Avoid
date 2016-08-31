@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFEFEFEF"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:text="Clear"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+
+
+        <Button
+            android:id="@+id/menuBtn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:textColor="#FFEFEFEF"
+            android:textSize="30sp"
+            android:text="Menu"/>
+
+        <Button
+            android:id="@+id/regameBtn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:textColor="#FFEFEFEF"
+            android:textSize="30sp"
+            android:text="Regame"/>
+
+        <Button
+            android:id="@+id/nextBtn"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:textColor="#FFEFEFEF"
+            android:textSize="30sp"
+            android:text="Next"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
